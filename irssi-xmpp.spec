@@ -3,7 +3,7 @@ Version:			0.13
 Release:			%mkrel 3
 Summary:			An irssi Module to Connect to the Jabber Network
 Source:			http://cybione.org/src/irssi-xmpp/irssi-xmpp-%{version}.tar.gz
-URL:				http://cybione.org/src/irssi-xmpp/
+URL:				http://cybione.org/~irssi-xmpp/
 Group:			Networking/IRC
 License:			GPL
 BuildRoot:		%{_tmppath}/build-%{name}-%{version}
