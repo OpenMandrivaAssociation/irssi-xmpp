@@ -1,10 +1,8 @@
-%define cvsdate 20090519
-
 Name:		irssi-xmpp
-Version:	0.13
-Release:	%mkrel 4.cvs%{cvsdate}.1
+Version:	0.50
+Release:	%mkrel 1
 Summary:	An irssi Module to Connect to the Jabber Network
-Source:		irssi-xmpp-cvs%{cvsdate}.tar.bz2
+Source:		irssi-xmpp-%version.tar.gz
 URL:		http://cybione.org/~irssi-xmpp/
 Group:		Networking/IRC
 License:	GPLv2
@@ -17,7 +15,7 @@ Requires:	irssi >= 0.8.13
 irssi-xmpp is a irssi plugin to connect to the jabber network.
 
 %prep
-%setup -q -n %{name}-cvs%{cvsdate}
+%setup -q -n %{name}-%{version}
 
 %build
 export IRSSI_INCLUDE="%{_includedir}/irssi" PREFIX=%{_prefix} IRSSI_LIB=%{_libdir}/irssi IRSSI_DOC=%{_defaultdocdir}
