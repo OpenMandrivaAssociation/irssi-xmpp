@@ -32,3 +32,37 @@ export IRSSI_INCLUDE="%{_includedir}/irssi" PREFIX=%{_prefix} IRSSI_LIB=%{_libdi
 %{_datadir}/irssi/help/roster
 %{_datadir}/irssi/help/xmppconnect
 %{_datadir}/irssi/help/xmppserver
+
+
+%changelog
+* Tue Mar 13 2012 Alexander Khrukin <akhrukin@mandriva.org> 0.52-1
++ Revision: 784680
+- version update 0.52
+
+* Tue May 24 2011 Sandro Cazzaniga <kharec@mandriva.org> 0.51-1
++ Revision: 678192
+- new version 0.51
+
+  + Oden Eriksson <oeriksson@mandriva.com>
+    - the mass rebuild of 2010.1 packages
+
+* Fri Mar 05 2010 Sandro Cazzaniga <kharec@mandriva.org> 0.50-1mdv2010.1
++ Revision: 514433
+- Rewrite parts of spec, not use CVS.
+- update to O.50
+- fix source to use tar.gz (fix %%prep too)
+
+* Tue May 19 2009 Nicolas Vigier <nvigier@mandriva.com> 0.13-4.cvs20090519.1mdv2010.0
++ Revision: 377580
+- update to cvs version (much more stable than the outdated stable version, and recommended on website)
+- fix license and indentation
+- update URL
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 0.13-3mdv2009.0
++ Revision: 247277
+- rebuild
+
+* Mon Feb 11 2008 Olivier Thauvin <nanardon@mandriva.org> 0.13-1mdv2008.1
++ Revision: 165626
+- import irssi-xmpp
+
