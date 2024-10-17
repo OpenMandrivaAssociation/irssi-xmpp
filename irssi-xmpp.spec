@@ -3,7 +3,7 @@ Version:	0.52
 Release:	2
 Summary:	An irssi Module to Connect to the Jabber Network
 Source0:	%name-%version.tar.gz
-URL:		http://cybione.org/~irssi-xmpp/
+URL:		https://cybione.org/~irssi-xmpp/
 Group:		Networking/IRC
 License:	GPLv2
 BuildRequires:	loudmouth-devel irssi-devel >= 0.8.13
